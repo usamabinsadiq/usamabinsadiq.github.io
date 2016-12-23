@@ -152,7 +152,7 @@
       $.ajax({
 
 	      type: "POST",
-	      url: "https://usamabinsadiq.github.io/inc/sendEmail.php",
+	      url: "../inc/sendEmail.php",
 	      data: data,
 	      success: function(msg) {
 
@@ -167,7 +167,6 @@
             else {
                $('#image-loader').fadeOut();
                $('#message-warning').html(msg);
-
 	            $('#message-warning').fadeIn();
             }
 
