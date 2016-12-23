@@ -152,7 +152,7 @@
       $.ajax({
 
 	      type: "POST",
-	      url: "inc/sendEmail.php",
+	      url: "https://usamabinsadiq.github.io/inc/sendEmail.php",
 	      data: data,
 	      success: function(msg) {
 
