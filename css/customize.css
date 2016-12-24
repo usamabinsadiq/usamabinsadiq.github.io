@@ -169,7 +169,6 @@
     font-family: 'opensans-regular', sans-serif;
     font-weight: lighter;
     padding: 5px 55px;
-    /*text-transform: uppercase;*/
     -webkit-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
 }
@@ -285,3 +284,7 @@ button:focus {
     padding: 0;
 }
 /* style.css*/
+/* start Creating This Section For GitHub Pages*/
+/*
+
+/* end Creating This Section For GitHub Pages*/

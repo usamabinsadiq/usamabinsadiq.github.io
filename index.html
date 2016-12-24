@@ -8,7 +8,7 @@
    ================================================== -->
     <meta charset="utf-8">
 	<title>Usama Bin Sadiq</title>
-	<meta name="description" content="">
+	<meta name="description" content="My Personal Website">
 	<meta name="author" content="Usama Bin Sadiq">
 
    <!-- Mobile Specific Metas
@@ -29,7 +29,7 @@
 
     <!-- Favicons
      ================================================== -->
-	<link rel="shortcut icon" href="favicon.png" >
+	<link rel="shortcut icon" href="favicon.png">
 
 </head>
 
@@ -73,6 +73,7 @@
                <li><a href="https://pk.linkedin.com/in/usamabinsadiq" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                <li><a href="https://github.com/usamabinsadiq" target="_blank"><i class="fa fa-github"></i></a></li>
                <li><a href="skype:live:usamabinsadiq?call"><i class="fa fa-skype"></i></a></li>
+
             </ul>
 
          </div>
@@ -136,9 +137,9 @@
                </div>
 
                <div class="columns download">
-                  <p>
+                  <!--<p>
                      <a href="#" class="button"><i class="fa fa-download"></i>Download Resume</a>
-                  </p>
+                  </p>-->
                </div>
 
             </div> <!-- end row -->
@@ -889,189 +890,96 @@
       <div class="row">
          <!-- Contact Us Section Title -->
          <h2 class="section-title contact-title txt-center"><span>Contact Me</span></h2>
-         <p class="sub-title contact-subtitle txt-center">
-            Please use the contact form below to get in touch with me or hire me as a Freelancer or call me on Skype.
-         </p>
-         <div class="row">
-            <div class="twelve columns">
-               <div class="contact-form-section mt-50">
-                  <form method="POST" action="sendMail.php" id="contactForm" name="contactForm" role="form">
-                     <div class="row">
-                        <div class="four columns">
-                          <!-- Name Field -->
-                           <div class="form-group contact-form-icon">
-                              <label class="sr-only">Name</label>
-                              <i class="fa fa-user"></i>
-                              <input type="text" placeholder="Name" id="name" class="form-control" name="name" required>
+          <!-- Creatig This Section Because Github Pages dose not support Server Side Programming -->
+          <div class="row">
+              <div class="twelve columns">
+                  <div class="contact-form-section mt-50">
+                        <form method="POST" action="" id="contactForm" name="contactForm" role="form">
+                           <div class="row btn-row">
+                               <div class="four columns txt-center contact-button-padding">
+                                   <button class="btn-contact btn-block" type="button" onclick="location.href='mailto:usamabinsadiq@hotmail.com'" value="Call me on Skype" >
+                                       Email me <i class="img-on-btn fa fa-envelope"></i>
+                                   </button>
+                               </div>
+                               <div class="four columns contact-button-padding">
+                                   <button class="btn-contact btn-block" type="button" onclick="window.open('http://www.upwork.com/o/profiles/users/_~0139c839ed00bfe3b5/','_blank');" value="Hire me on UpWork" >
+                                       Hire Me on <img class="img-on-btn" src="images/upwork15.png">
+                                   </button>
+                               </div>
+                               <div class="four columns txt-center contact-button-padding">
+                                   <button class="btn-contact btn-block" type="button" onclick="location.href='skype:live:usamabinsadiq?call'" value="Call me on Skype" >
+                                       Call me on <i class="img-on-btn fa fa-skype"></i>
+                                   </button>
+                               </div>
+                            </div>
+                        </form>
+                    </div>
+                 </div>
+              </div>
+               <!-- closing because Github Pages dose not support Server Side Programming
+               <p class="sub-title contact-subtitle txt-center">
+                  Please use the contact form below to get in touch with me or hire me as a Freelancer or call me on Skype.
+               </p>
+               <div class="row">
+                  <div class="twelve columns">
+                     <div class="contact-form-section mt-50">
+                      <!-- closing because of Github Pages dose not support Server Side Programming
+                        <form method="POST" action="" id="contactForm" name="contactForm" role="form">
+                           <div class="row">
+                              <div class="four columns">
+                                 <div class="form-group contact-form-icon">
+                                    <label class="sr-only">Name</label>
+                                    <i class="fa fa-user"></i>
+                                    <input type="text" placeholder="Name" id="name" class="form-control" name="name" required>
+                                 </div>
+                                 <div class="form-group contact-form-icon">
+                                    <label for="email" class="sr-only">Email</label>
+                                    <i class="fa fa-envelope"></i>
+                                    <input type="email" placeholder="Email" id="email" class="form-control" name="email" required>
+                                 </div>
+                                 <div class="form-group contact-form-icon">
+                                    <label for="subject" class="sr-only">Subject</label>
+                                    <i class="fa fa-pencil"></i>
+                                    <input type="text" placeholder="Subject" id="subject" class="form-control" name="subject" required>
+                                 </div>
+                              </div>
+                              <div class="eight columns">
+                                 <div class="form-group contact-form-icon">
+                                    <label for="message" class="sr-only">Message</label>
+                                    <i class="fa fa-keyboard-o"></i>
+                                    <textarea placeholder="Message" rows="7" id="message" class="form-control" name="message" required></textarea>
+                                 </div>
+                              </div>
                            </div>
-                          <!-- Email Field -->
-                           <div class="form-group contact-form-icon">
-                              <label for="email" class="sr-only">Email</label>
-                              <i class="fa fa-envelope"></i>
-                              <input type="email" placeholder="Email" id="email" class="form-control" name="email" required>
+                           <div class="row btn-row">
+                              <div class="four columns txt-center contact-button-padding">
+                                 <button class="btn-contact btn-block" name="submit" type="submit">
+                                 <i class="fa fa-paper-plane"></i>
+                                 Send
+                                 </button>
+                              </div>
+                              <div class="four columns contact-button-padding">
+                                 <button class="btn-contact btn-block" type="button" onclick="window.open('http://www.upwork.com/o/profiles/users/_~0139c839ed00bfe3b5/','_blank');" value="Hire me on UpWork" >
+                                     Hire Me on <img class="img-on-btn" src="images/upwork15.png">
+                                 </button>
+                              </div>
+                              <div class="four columns txt-center contact-button-padding">
+                                 <button class="btn-contact btn-block" type="button" onclick="location.href='skype:live:usamabinsadiq?call'" value="Call me on Skype" >
+                                     Call me on <i class="img-on-btn fa fa-skype"></i>
+                                 </button>
+                              </div>
                            </div>
-                          <!-- Subject Field -->
-                           <div class="form-group contact-form-icon">
-                              <label for="subject" class="sr-only">Subject</label>
-                              <i class="fa fa-pencil"></i>
-                              <input type="text" placeholder="Subject" id="subject" class="form-control" name="subject" required>
-                           </div>
+                        </form>
+                        <div id="message-warning"> Error boy</div>
+                        <div id="message-success">
+                           <i class="fa fa-check"></i>Your message was sent, thank you!<br>
                         </div>
-                        <div class="eight columns">
-                           <div class="form-group contact-form-icon">
-                              <label for="message" class="sr-only">Message</label>
-                              <i class="fa fa-keyboard-o"></i>
-                              <textarea placeholder="Message" rows="7" id="message" class="form-control" name="message" required></textarea>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="row btn-row">
-                        <div class="four columns txt-center contact-button-padding">
-                           <button class="btn-contact btn-block" name="submit" type="submit">
-                           <i class="fa fa-paper-plane"></i>
-                           Send
-                           </button>
-                        </div>
-                        <div class="four columns contact-button-padding">
-                           <button class="btn-contact btn-block" type="button" onclick="window.open('http://www.upwork.com/o/profiles/users/_~0139c839ed00bfe3b5/','_blank');" value="Hire me on UpWork" >
-                               Hire Me on <img class="img-on-btn" src="images/upwork15.png">
-                           </button>
-                        </div>
-                        <div class="four columns txt-center contact-button-padding">
-                           <button class="btn-contact btn-block" type="button" onclick="location.href='skype:live:usamabinsadiq?call'" value="Call me on Skype" >
-                               Call me on <i class="img-on-btn fa fa-skype"></i>
-                           </button>
-                        </div>
-                     </div>
-                  </form>
-                  <!-- contact-warning -->
-                  <div id="message-warning"> Error boy</div>
-                  <!-- contact-success -->
-                  <div id="message-success">
-                     <i class="fa fa-check"></i>Your message was sent, thank you!<br>
-                  </div>
-               </div>
-            </div>
-         </div>
+
+                    </div>
+                 </div>
+              </div>-->
       </div>
-   </section>
-
-  <!-- <section id="contact">
-
-         <div class="row section-head">
-
-            <div class="two columns header-col">
-
-               <h1><span>Get In Touch.</span></h1>
-
-            </div>
-
-            <div class="ten columns">
-
-                  <p class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                  eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                  voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-                  </p>
-
-            </div>
-
-         </div>
-
-         <div class="row">
-
-            <div class="eight columns">
-
-               <!-- form -->
-   <!--
-               <form action="" method="post" id="contactForm" name="contactForm">
-					<fieldset>
-
-                  <div>
-						   <label for="contactName">Name <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactName" name="contactName">
-                  </div>
-
-                  <div>
-						   <label for="contactEmail">Email <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
-                  </div>
-
-                  <div>
-						   <label for="contactSubject">Subject</label>
-						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
-                  </div>
-
-                  <div>
-                     <label for="contactMessage">Message <span class="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
-                  </div>
-
-                  <div>
-                     <button class="submit">Submit</button>
-                     <span id="image-loader">
-                        <img alt="" src="images/loader.gif">
-                     </span>
-                  </div>
-
-					</fieldset>
-				   </form> --><!-- Form End -->
-
-               <!-- contact-warning
-               <div id="message-warning"> Error boy</div> -->
-               <!-- contact-success
-				   <div id="message-success">
-                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
-				   </div> -->
-<!--
-            </div>
-
-
-            <aside class="four columns footer-widgets">
-
-               <div class="widget widget_contact">
-
-					   <h4>Address and Phone</h4>
-					   <p class="address">
-						   Jonathan Doe<br>
-						   1600 Amphitheatre Parkway <br>
-						   Mountain View, CA 94043 US<br>
-						   <span>(123) 456-7890</span>
-					   </p>
-
-				   </div>
-
-               <div class="widget widget_tweets">
-
-                  <h4 class="widget-title">Latest Tweets</h4>
-
-                  <ul id="twitter">
-                     <li>
-                        <span>
-                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#">2 Days Ago</a></b>
-                     </li>
-                     <li>
-                        <span>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                        eaque ipsa quae ab illo inventore veritatis et quasi
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#">3 Days Ago</a></b>
-                     </li>
-                  </ul>
-
-		         </div>
-
-            </aside>
-
-      </div>
-
-   </section> -->
-   <!-- Contact Section End-->
-
+   </section> <!-- Contact Section End-->
 
    <!-- footer
    ================================================== -->
@@ -1088,6 +996,7 @@
                 <li><a href="https://pk.linkedin.com/in/usamabinsadiq" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                 <li><a href="https://github.com/usamabinsadiq" target="_blank"><i class="fa fa-github"></i></a></li>
                 <li><a href="skype:live:usamabinsadiq?call"><i class="fa fa-skype"></i></a></li>
+
             </ul>
 
             <ul class="copyright">
@@ -1114,7 +1023,6 @@
    <script src="js/jquery.fittext.js"></script>
    <script src="js/magnific-popup.js"></script>
    <script src="js/init.js"></script>
-
 
 </body>
 
