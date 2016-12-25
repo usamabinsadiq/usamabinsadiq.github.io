@@ -253,10 +253,11 @@ ul#nav li.current a { color: #fff/*#F06000*/; }
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
 }
-#resume h3 {
-   font: 25px/30px 'opensans-bold', sans-serif;
+@media only screen and (min-width: 768px) {
+    #resume h3 {
+        font: 25px/30px 'opensans-bold', sans-serif;
+    }
 }
-
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
