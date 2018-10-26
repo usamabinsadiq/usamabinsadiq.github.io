@@ -516,7 +516,7 @@ ul#nav li.current a { color: #fff/*#F06000*/; }
 /* popup modal */
 .popup-modal {
 	max-width: 550px;
-	background: #fff;
+	background: #ebeeee;
 	position: relative;
 	margin: 0 auto;
 }
@@ -528,12 +528,21 @@ ul#nav li.current a { color: #fff/*#F06000*/; }
 }
 .popup-modal .description-box p {
 	font: 14px/24px 'opensans-regular', sans-serif;
-   color: #A1A1A1;
+   color: #8c8c8c;
    margin-bottom: 12px;
 }
+.popup-modal .description-box dl dt{
+    font: 14px/24px 'opensans-regular', sans-serif;
+    color: #8c8c8c;
+}
+.popup-modal .description-box dl dd{
+    font: 12px/20px 'opensans-regular', sans-serif;
+    color: #8c8c8c;
+    margin-bottom: 12px;
+}
 .popup-modal .description-box .categories {
-   font: 11px/21px 'opensans-light', sans-serif;
-   color: #A1A1A1;
+   font: 11px/21px 'opensans-regular', sans-serif;
+   color: #747474;
    text-transform: uppercase;
    letter-spacing: 2px;
    display: block;
